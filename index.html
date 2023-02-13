@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <button id="delate-button">delate</button>
+
+    <div id="box"></div>
+    <div id="form">
+      <input type="text" id="firstName" />
+      <button id="add">add</button>
+      <p id="names"></p>
+    </div> -->
+
+    <input type="text" id="inputField" />
+    <button id="submitButton">Submit</button>
+    <p id="outputField"></p>
+
+    <script src="./script.js">
+          const inputField = document.getElementById("inputField");
+          const submitButton = document.getElementById("submitButton");
+          const outputField = document.getElementById("outputField");
+
+          submitButton.addEventListener("click", function () {
+          const inputValue = inputField.value;
+          outputField.textContent = inputValue;
+        });
+        // function createParagraph() {
+        //   const container = document.querySelector("#container");
+        //   const p = document.createElement("p");
+        //   p.textContent = "This is a new paragraph.";
+        //   container.appendChild(p);
+        // }
+      //   const firstName = document.getElementById("firstName");
+      //   const add = document.getElementById("add");
+      //   const names = document.getElementById("names");
+
+      //   let namesArr;
+    </script>
+  </body>
+</html>
